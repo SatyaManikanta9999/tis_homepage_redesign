@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-brand: #ea6a12;
+  --color-forest: #166534;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply bg-stone-50 text-stone-800 antialiased transition-colors duration-300 dark:bg-stone-950 dark:text-stone-200; }
+
+@media (pointer: fine) { .has-cursor, .has-cursor a, .has-cursor button { cursor: none; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
