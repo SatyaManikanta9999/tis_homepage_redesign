@@ -2,9 +2,13 @@
 
 A modern, animated redesign of the Tula's International School homepage focused on conversion, fluid animation and mobile responsiveness.
 
+![Desktop_View](screenshots/Desktop_View.png)
+![Ipad_View](screenshots/Ipad_View.png)
+![Mobile_View](screenshots/Mobile_View.png)
+
 ## 🚀 Live Demo
-- **Live URL:** [Insert Vercel / Netlify Link Here]
-- **Repository:** [Insert GitHub Repo Link Here]
+- **Live URL:** https://tis-homepage-redesign-xi.vercel.app/
+- **Repository:** https://github.com/SatyaManikanta9999/tis_homepage_redesign
 
 ## 🛠️ Tech Stack
 - **Framework:** React 18 + Vite
@@ -21,8 +25,8 @@ A modern, animated redesign of the Tula's International School homepage focused 
 
 ## 📦 Getting Started Locally
 ```bash
-git clone https://github.com/your-username/tis-homepage-redesign.git
-cd tis-homepage-redesign
+git clone https://github.com/SatyaManikanta9999/tis_homepage_redesign.git
+cd tis_homepage_redesign
 npm install
 npm run dev     # http://localhost:5173
 npm run build   # production build
